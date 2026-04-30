@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO WEBSITE</h1>
+        <!-- Nav bar -->
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#skill">Skills</a> |
+            <a href="#hobbies">Hobbies</a> | 
+            <a href="#media">Media</a> | 
+            <a href="#table">Table</a> | 
+            <a href="#form">Form</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!-- About me -->
+        <section id="about">
+            <h2>ABOUT ME</h2>
+            <p>I am <b><mark>Sai Kumar Eddum</mark></b> a motivated and detail-oriented <b>Java Developer</b> with hands-on experience in building RESTful APIs and full-stack applications using <i>Spring Boot, JPA, MySQL, and JWT-based authentication.</i> Seeking an opportunity to contribute as a <u>Core Java Developer</u> where I can apply my knowledge of API development, secure system design, and scalable application development to build reliable and highperformance software solutions. Eager to continuously enhance my technical skills and contribute effectively within an Agile development environment</p>
+        </section>
+        <hr>
+        <!-- Favorite Website -->
+        <section>
+            <p><b>Visit My favorite site: <a href="https://www.google.com/" target="_blank">Google</a></b></p>
+        </section>
+        <hr>
+        <!-- Photos Section -->
+        <section id="photo">
+            <h2>PHOTOS</h2>
+            <img src="./asserts/movie.png" alt="Error" title="offline image">
+            <img src="https://images.stockcake.com/public/3/3/d/33da4d6f-ca7a-404d-a5a9-618b909affb8_large/majestic-eagle-soaring-stockcake.jpg" height="300px" width="300px" alt="Error" title="online image">
+        </section>
+        <hr>
+        <!-- Skills -->
+        <section id="skill">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <hr>
+        <!-- Hobbies -->
+        <section id="hobbies">
+            <h2>HOBBIES</h2>
+            <ol>
+                <li>Coding</li>
+                <li>Gaming</li>
+                <li>Listening Music</li>
+                <li>Solving Puzzles</li>
+            </ol>
+        </section>
+        <hr>
+        <!-- Definations -->
+        <section>
+            <h2>DEFINITIONS</h2>
+            <dl>
+                <dt><strong>HTML</strong></dt>
+                <dd><em>Hyper Text Markup Language</em></dd>
+                <dt><strong>CSS</strong></dt>
+                <dd><em>Cascading Style Sheets</em></dd>
+                <dt><strong>SQL</strong></dt>
+                <dd><em>Structured Query Language</em></dd>
+            </dl>
+        </section>
+        <hr>
+        <!-- Audio and Video -->
+        <section id="media">
+            <h2>AUDIO & VIDEO</h2>
+            <h3>Audio</h3>
+            <audio controls><source src="./asserts/file_example_MP3_700KB.mp3" type="audio/mp3"></audio>
+            <h2>Video</h2>
+            <video controls><source src="./asserts/file_example_MP4_480_1_5MG.mp4" type="video/mp4"></video>
+        </section>
+        <hr>
+        <!-- Table -->
+        <section id="table">
+            <h2>STUDENT TABLE</h2>
+            <table border="2" cellpadding="20px" width="600px">
+                <thead>
+                    <th>Name</th>
+                    <th colspan="2">Subject & Score</th>
+                    <th>Image</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Seshu</td>
+                        <td>HTML</td>
+                        <td>78</td>
+                        <td rowspan="3"><img src="./asserts/snake.png" height="200px" width="200px" alt="Error"></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>89</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>87</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Peacock</td>
+                        <td>HTML</td>
+                        <td>75</td>
+                        <td rowspan="3" ><img src="./asserts/peacock.png" height="200px" width="200px" alt="error"></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>67</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>87</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <!-- Registration Form -->
+        <section id="form">
+            <h1>REGISTRATION FORM</h1>
+            <label for="name">Name : 
+                <input type="text" id="name" placeholder="Enter Name Here" required>
+            </label>
+            <br><br>
+            <label for="mail">Email : 
+                <input type="email" id="mail" placeholder="Enter Mail Here" required>
+            </label>
+            <br><br>    
+            <label for="pass">Password : 
+                <input type="password" maxlength="10" id="pass" placeholder="Enter Password Here" required pattern="[A-Za-z0-9]{8,}">
+            </label>
+            <br><br><br>
+            <label for="gender">Gender:
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender" >Female
+            </label>
+            <br><br>
+            <label for="skills">Skills:
+                <input type="checkbox" name="skills">HTML
+                <input type="checkbox" name="skills">CSS
+                <input type="checkbox" name="skills">JavaScript
+            </label>
+            <br><br><br>
+            <label for="dob">Date Of Birth : 
+                <input type="date" >
+            </label>
+            <br><br>
+            <label for="time">Time : 
+                <input type="time">
+            </label>
+            <br><br>
+            <label for="color">Color : 
+                <input type="color">
+            </label>
+            <br><br>
+            <label for="range">Range : 
+                <input type="range">
+            </label>
+            <br><br><br>
+            <label for="file">Upload File : 
+                <input type="file">
+            </label>
+            <br><br><br>
+            <label for="country">Country : 
+                <select name="country" id="">
+                    <option value="Selection">Select Country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+            </label>
+            <br><br><br>
+            <label for="message">Message : 
+                <textarea rows="5" cols="20" placeholder="enter message"></textarea>
+            </label>
+            <br><br><br>
+            <button type="submit">Submit</button> | <button type="reset">Reset</button>
+        </section>
+        <hr>
+        <!-- Extra Section -->
+         <section>
+            <h2>Extra Section</h2>
+            <b><a href="https://www.youtube.com/">Youtube</a></b>
+         </section>
+    </main>
+    <hr>
+    <footer>
+        <center>
+            <p>&copy; 2026 My Website All Rights Reserved &lt; &gt; &alpha;</p>
+        </center>
+    </footer>
+</body>
+</html>
