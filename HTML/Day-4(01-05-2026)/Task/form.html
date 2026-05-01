@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Registration form</h1></legend>
+        <form action="./res.html">
+            <label for="name">Name : 
+            <input type="text" id="name" placeholder="Enter Name Here" required>
+        </label>
+        <br><br>
+        <label for="mail">Email : 
+            <input type="email" id="mail" placeholder="Enter Mail Here" required>
+        </label>
+        <br><br>    
+        <label for="pass">Password : 
+            <input type="password" maxlength="10" id="pass" placeholder="Enter Password Here" required pattern="[A-Za-z0-9]{8,}">
+        </label>
+        <br><br><br>
+        <label for="gender">Gender:
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender" >Female
+        </label>
+        <br><br>
+        <label for="skills">Skills:
+            <input type="checkbox" name="skills">HTML
+            <input type="checkbox" name="skills">CSS
+            <input type="checkbox" name="skills">JavaScript
+        </label>
+        <br><br><br>
+        <label for="dob">Date Of Birth : 
+            <input type="date" >
+        </label>
+        <br><br>
+        <label for="time">Time : 
+            <input type="time" value="04:53" disabled>
+        </label>
+        <br><br>
+        <label for="color">Color : 
+            <input type="color">
+        </label>
+        <br><br>
+        <label for="range">Range : 
+            <input type="range">
+        </label>
+        <br><br><br>
+        <label for="file">Upload File : 
+            <input type="file">
+        </label>
+        <br><br><br>
+        <label for="country">Country : 
+            <select name="country" id="">
+                <option value="Selection">Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+        </label>
+        <br><br><br>
+        <label for="message">Message : 
+            <textarea rows="5" cols="20" placeholder="enter message"></textarea>
+        </label>
+        <br><br><br>
+        <button type="submit">Submit</button> | <button type="reset">Reset</button>
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Student Portfolio</h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#hero">About</a> | 
+            <a href="#skills">Skills</a> | 
+            <a href="#project">Projects</a> |
+            <a href="./form.html">Registration</a> |
+            <a href="#media">Media</a> | 
+            <a href="#maps">Maps</a> | 
+            <a href="#youtube">Youtube</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!--Hero Section-->
+        <section id="hero">
+            <img border="1px" src="./asserts/image.jpeg" alt="Error" height="120px" width="100px" id="top">
+            <dl>
+                <dt><h2>Sai Kumar Eddum</h2></dt>
+                <dd>- Associate Software Engineer(P3), Oppty TechHub Private Limited</dd>
+            </dl>
+            <a href="https://drive.google.com/file/d/1g6GPcDDXbfQFq7rsQAHNsORbndvgruZV/view?usp=sharing" target="_blank">
+                <button type="button">Click here</button>
+            </a> to see my resume
+        </section>
+        <hr>
+        <!-- About Section -->
+        <section id="About">
+            <h2>ABOUT ME</h2>
+            <p><blockquote>I am <b><mark>Sai Kumar Eddum</mark></b> a motivated and detail-oriented <b>Java Developer</b> with hands-on experience in building RESTful APIs and full-stack applications using <i>Spring Boot, JPA, MySQL, and JWT-based authentication.</i> Seeking an opportunity to contribute as a <u>Core Java Developer</u> where I can apply my knowledge of API development, secure system design, and scalable application development to build reliable and highperformance software solutions. Eager to continuously enhance my technical skills and contribute effectively within an Agile development environment.Developed a full-stack Hospital Management System using Spring Boot, REST APIs, MySQL, HTML, CSS, and JavaScript.Implemented role-based authentication (Admin, Doctor, Patient) using JWT for secure access control.Designed and integrated modules for doctor management, patient registration, and appointment scheduling.Optimized database schema with proper entity relationships using JPA & Hibernate. Another project was Smart Home Automation Using Google Home, Developed an IoT-based Smart Home Automation System integrating NodeMCU, Arduino Cloud, and Google Assistant. Implemented automatic remainders to timely manage the operations of Home appliances. Implemented real-time monitoring and feedback, reducing operational errors by 95%.</blockquote></p>
+        </section>
+        <hr>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>
+                    <dl>
+                        <dt><b>Programming Languages : </b></dt>
+                        <dd>Java, Python</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><b>Web Technologies : </b></dt>
+                        <dd>HTML5, CSS, JavaScript</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><b>Databases  : </b></dt>
+                        <dd>SQL</dd>
+                    </dl>
+                </li>
+            </ul>
+            <h3>Soft Skils</h3>
+            <ol>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Consistency</li>
+                <li>Adaptability</li>
+            </ol>
+        </section>
+        <hr>
+        <!-- Project Details -->
+        <section id="project">
+            <h2>Projects</h2>
+            <table border="1px" style="text-align: center;">
+                <thead>
+                    <th>S.No</th>
+                    <th>Project</th>
+                    <th>About</th>
+                    <th>Image</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4"><b><i>Software Project</i></b></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">1</td>
+                        <td rowspan="4">Hospital Management System</td>
+                        <td>Developed a full-stack Hospital Management System using Spring Boot, REST APIs, MySQL, HTML, CSS, and JavaScript.</td>
+                        <td rowspan="4"><img src="./asserts/hms.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Implemented role-based authentication (Admin, Doctor, Patient) using JWT for secure access control.</td>
+                    </tr>
+                    <tr>
+                        <td>Designed and integrated modules for doctor management, patient registration, and appointment scheduling.</td>
+                    </tr>
+                    <tr>
+                        <td>Optimized database schema with proper entity relationships using JPA & Hibernate.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><b><i>Hardware Project</i></b></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">2</td>
+                        <td rowspan="4">Smart Home Automation Using Google Home</td>
+                        <td>Developed an IoT-based Smart Home Automation System integrating NodeMCU, Arduino Cloud, and Google Assistant.</td>
+                        <td rowspan="4" ><img src="./asserts/project2.png" alt="" width="300px" ></td>
+                    </tr>
+                    <tr>
+                        <td>Implemented real-time monitoring and feedback, reducing operational errors by 95%.</td>
+                    </tr>
+                    <tr>
+                        <td>Implemented automatic remainders to timely manage the operations of Home appliances.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <!--Media Section-->
+        <section id="media">
+            <h2>Audio Player</h2>
+            <audio controls>
+                <source src="./asserts/file_example_MP3_700KB.mp3" type="audio/mp3">
+            </audio>
+            <h2>Video Player</h2>
+            <video controls>
+                <source src="./asserts/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+            </video>
+        </section>
+        <hr>
+        <!-- Registration form -->
+        <section id="form">
+            <h1>Registration form</h1>
+            <a href="./form.html">
+                <button type="button">Click Here</button>
+            </a> to register
+        </section>
+        <hr>
+        <!-- Iframe Section -->
+        <section>
+            <h2 id="maps">Maps</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1910.6872705757055!2d81.08772970497706!3d16.708153612167635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3615001df69831%3A0xecb48666d2f8fa67!2sSVC%20CINEMAS%20-%204K%20RGB%20LASER%20-%20Dolby%20Atmos!5e0!3m2!1sen!2sin!4v1777623911234!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <br><br>
+            <h2 id="youtube">Youtube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HYxfE6Ea0pc?si=kX54TE-Sz1UirIEV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h3 id="contact"><u>Contact Information:</u></h3>
+        <ul>
+            <li><b>Mail : </b><a href="mailto:eddumsaikumar@gmail.com">saikumar@gmail.com</a></li>
+            <li><b>Mobile : </b><a href="tel:9390279783">9390279783</a></li>
+            <li><b>Linkedin : </b><a href="https://www.linkedin.com/in/saikumar-eddum/" target="_blank">Sai-Kumar-Eddum</a></li>
+        </ul>
+        <hr>
+        <center><p>&lt; &copy; 2026 My Website All Rights Reserved &gt;</p></center>
+    </footer>
+</body>
+</html>
