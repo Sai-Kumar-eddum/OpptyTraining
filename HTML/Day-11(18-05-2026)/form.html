@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset >
+        <legend><h1>Citizen Registeration</h1></legend>
+        <center>
+            <form action="./task.html">
+                <label for="name">Full Name : 
+                    <input type="text" id="name" placeholder="Enter Name Here">
+                </label>
+                <br><br>
+                <label for="age">Age : 
+                    <input type="number" min="18" id="age" placeholder="Enter age Here">
+                </label>
+                <br><br>
+                <label for="dob">DOB : 
+                    <input type="date" id="dob">
+                </label>
+                <br><br>
+                <label for="gender" name="gender">Gender : 
+                    <input type="radio" name="gender">Male 
+                    <input type="radio" name="gender">Female
+                </label>
+                <br><br>
+                <label for="email">Email : 
+                    <input type="email" required placeholder="Enter Mail Here">
+                </label>
+                <br><br>
+                <label for="pass">Password : 
+                    <input type="password" pattern="(?=.*[0-9])(?=.*[@#$])[A-Za-z0-9@#$]{6,}" placeholder="Enter Password Here">
+                </label>
+                <br><br>
+                <label for="con" name="con">Connections : 
+                    <input type="checkbox" name="con">Water 
+                    <input type="checkbox" name="con">Gas 
+                    <input type="checkbox" name="con">Cable
+                    <input type="checkbox" name="con">WiFi
+                </label>
+                <br><br>
+                <label for="">Area : 
+                    <select name="area" id="area">
+                        <option value="">Select Area</option>
+                        <option value="Tangellamudi">Tangellamudi</option>
+                        <option value="R R pet">R R pet</option>
+                        <option value="fire station center">Fire Station Ceneter</option>
+                        <option value="1 town">One town</option>
+                    </select>
+                </label> 
+                <br><br>
+                <label for="skin">Skintone : 
+                    <input type="color">
+                </label>
+                <br><br>
+                <label for="doc">Government ID proof : 
+                    <input type="file">
+                </label>
+                <br><br>
+                <label for="rat">Website Rating : 
+                    <input type="range">
+                </label>
+                <br><br>
+                <label for="sug">Suggestions : 
+                    <textarea name="" id="sug" placeholder="Write Suggestions/review Here" cols="20" rows="10"></textarea>
+                </label>
+                <br><br>
+                <button type="submit">Submit</button>
+                <input type="reset">
+            </form>
+        </center>
+    </fieldset>
+</body>
+</html>
