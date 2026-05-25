@@ -1,0 +1,7 @@
+#id1{
+    background-color: aqua;
+}
+#id1 h1,#id1 p{
+    color: red;
+    padding: 20px;
+}
