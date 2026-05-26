@@ -1,0 +1,94 @@
+/* ==============
+     Task-2
+================ */
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 120px;
+    border-bottom: 1px solid rgb(128, 128, 128,0.2);
+}
+.head{
+    display: flex;
+    font-size: 15px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    margin-top: 26px;
+    gap: 20px;
+    font-size: 13px;
+}
+.items{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
+.git{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.main-container{
+    display: flex;
+    margin:10px 100px 10px 150px;
+}
+.section{
+    width: 440px;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+.main-text{
+    font-size: 40px;
+    color: rgb(0, 102, 255);
+    margin-bottom: 0;
+}
+.sub-text{
+    font-size: 17px;
+    font-weight: 400;
+}
+.aside{
+    margin:70px auto;
+}
+.git1{
+    background-color: rgb(230, 48, 48);
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+.wavy{
+    text-decoration: underline wavy orange 2px;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+/* ==============
+     Task-1
+================ */
+.main{
+    background-color: rgb(34, 34, 117);
+    padding: 5px 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sub{
+    text-align: center;
+}
+.main>h1{
+    color: rgb(47, 255, 92);
+}

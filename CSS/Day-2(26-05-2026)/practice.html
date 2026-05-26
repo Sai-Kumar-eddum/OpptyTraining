@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glass Hover Animation</title>
+<link rel="stylesheet" href="./practice.css">
+
+<!-- <style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.glass{
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color: white;
+    font-size:28px;
+    font-weight:bold;
+
+    background-color:rgba(27, 13, 6, 0.5);
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.glass:hover{
+    transform: scale(1.2) rotate(2deg);
+    position: relative;
+    box-shadow: 0px 10px 20px whitesmoke;
+}
+
+.glass::before{
+    content:"";
+    position: absolute;
+    left:-120%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.568),
+        transparent
+    );
+    width: 60%;
+    height: 200%;
+    transition: 1.5s;
+    transform: rotate(20deg);
+}
+
+.glass:hover::before{
+    left: 120%;
+}
+
+</style> -->
+</head>
+
+<body>
+
+
+<div class="glass">
+    Hover me
+</div>
+
+<div class="m2">
+    Hello
+    <span class="box box1"></span>
+    <span class="box box2"></span>
+    <span class="box box3"></span>
+    <span class="box box4"></span>
+</div>
+
+</body>
+</html>
