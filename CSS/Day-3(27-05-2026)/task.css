@@ -3,9 +3,7 @@ body{
     background-color: light;
 }
 .main-div{
-    margin:5% auto;
-    width: 95%;
-    height: 90%;
+    margin:50px 40px;
     background: url(https://static.vecteezy.com/system/resources/thumbnails/050/431/139/small/indian-curry-spice-food-in-bowl-rustic-wooden-table-copyspace-for-template-traditional-asian-fried-vegetable-dinner-with-rice-chicken-bread-and-sauce-in-dish-photo.jpeg) center / cover no-repeat fixed ;   
 }
 /* header */
@@ -13,7 +11,6 @@ body{
     display: flex;
     margin: 40px 60px 0;
     justify-content: space-between;
-    gap: 30px;
 }
 
 /* logo and title */
@@ -54,12 +51,11 @@ a{
 /* Section 1 */
 .sec-1{
     display: flex;
-    gap: 100px;
+    justify-content: space-around;
     color: white;
+    margin: 30px 0;
 }
-.aside{
-    margin-left: 60px;
-}
+
 .content{
     width: 450px;
     margin: 80px 100px 0 0;
@@ -108,7 +104,7 @@ a{
 .cards{
     display: flex;
     gap: 30px;
-    margin: 10px 0 90px 80px;
+    margin: 15px 0 90px 60px;
     color: white;
 }
 .card{
