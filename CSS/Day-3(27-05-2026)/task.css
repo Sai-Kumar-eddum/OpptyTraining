@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(to right,rgb(131, 250, 131),rgb(48, 255, 245));
+    background-color: light;
+}
+.main-div{
+    margin:5% auto;
+    width: 95%;
+    height: 90%;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/050/431/139/small/indian-curry-spice-food-in-bowl-rustic-wooden-table-copyspace-for-template-traditional-asian-fried-vegetable-dinner-with-rice-chicken-bread-and-sauce-in-dish-photo.jpeg) center / cover no-repeat fixed ;   
+}
+/* header */
+.head{
+    display: flex;
+    margin: 40px 60px 0;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* logo and title */
+.title{
+    display: flex;
+    font-weight: 600;
+}
+
+
+/* nav bar */
+.nav{
+    display: flex;
+    gap: 80px;
+}
+ul{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+/* buttons */
+.but{
+    margin: 12px 12px 0 0;
+    padding: 7px 17px;
+    border-radius:15px ;
+}
+.b2{
+    border-style: none;
+    background-color: orange;
+}
+
+
+/* Section 1 */
+.sec-1{
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+.aside{
+    margin-left: 60px;
+}
+.content{
+    width: 450px;
+    margin: 80px 100px 0 0;
+    text-shadow: 0 0 10px rgb(22, 215, 240);
+}
+.para{
+    font-size: 25px;
+    font-weight: 500;
+    color: aqua;
+    margin: 0;
+}
+.b3{
+    background-color: orange;
+    border-style: none;
+    padding: 12px 20px;
+    border-radius: 9px;
+}
+
+/* Section-2 */
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin:0 80px ;
+}
+.menu p{
+    margin: 0;
+}
+.menu .para{
+    margin-bottom: 20px;
+}
+.nav-2{
+    margin-top: 25px;
+}
+.nav-2 a{
+    border:1px solid grey;
+    border-radius: 13px;
+    padding: 8px 15px;
+    margin: 0 20px;
+    color: black;
+    background-color: white;
+}
+
+
+/* Cards */
+.cards{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0 90px 80px;
+    color: white;
+}
+.card{
+    width: 220px;
+    height: 330px;
+    border: 3px inset grey ;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px aqua;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(22, 215, 240);
+}
+/* Stars */
+i{
+    color: goldenrod;
+}
+

@@ -1,6 +1,7 @@
 /* ==============
      Task-2
 ================ */
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -76,11 +77,10 @@
 
 
 
-
 /* ==============
      Task-1
 ================ */
-.main{
+/* .main{
     background-color: rgb(34, 34, 117);
     padding: 5px 100px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -91,4 +91,4 @@
 }
 .main>h1{
     color: rgb(47, 255, 92);
-}
+} */
