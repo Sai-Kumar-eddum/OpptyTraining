@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(to right,rgb(238, 152, 211),rgb(243, 125, 206),rgb(232, 88, 181),rgb(231, 39, 218))  ;
+}
+
+
+/* Card */
+.card{
+    margin: 30px auto;
+    width: 280px;
+    background-color: white;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Image */
+.img{
+    border-radius: 20px 20px 0 0 ;
+    height: 150px;
+    width: 280px;
+    position: relative;
+}
+/* Female icon */
+.icon{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top: 130px;
+    left: 590px;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgb(151, 151, 151,0.5);
+}
+
+/* Content */
+.content{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* 3dots */
+ul{
+    margin:0 0 5px 200px;
+}
+li{
+    font-size: 10px;
+    margin-bottom: -5px;
+}
+
+/* title */
+.title h2{
+    font-size: 22px;
+    color: rgb(117, 116, 116);
+}
+.title p{
+    color: grey;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+/* Followers list */
+.dig{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+}
+.dig h2{
+    color: rgb(4, 206, 206);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.dig p{
+    color: gray;
+    margin-top: 0;
+    font-size: 13px;
+}
+
+/* Follow button */
+button{
+    background-color: gold;
+    padding: 13px 100px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Description */
+.des{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-align: left;
+    margin:10px 12px;
+}

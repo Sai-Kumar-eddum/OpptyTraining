@@ -1,6 +1,5 @@
 body{
     background: linear-gradient(to right,rgb(131, 250, 131),rgb(48, 255, 245));
-    background-color: light;
 }
 .main-div{
     margin:50px 40px;
@@ -9,8 +8,9 @@ body{
 /* header */
 .head{
     display: flex;
-    margin: 40px 60px 0;
+    padding: 10px 60px 2px;
     justify-content: space-between;
+    background-color: rgb(128, 128, 128,0.3);
 }
 
 /* logo and title */
