@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(205, 205, 205);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.card{
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 280px;
+    padding: 25px;
+    color: rgb(139, 72, 0);
+}
+.img{
+    border-radius: 50%;
+}
+.img1{
+    width: 80px;
+    height: 80px;   
+}
+.pro{
+    padding: 5px;
+    background-color: rgba(216, 177, 114, 0.2);
+    font-size: 12px;
+    width: 50px;
+    margin:-10px auto;
+}
+.role{
+    font-size: 14px;
+    margin: -15px 0 -5px;
+
+}
+.desc{
+    color: rgb(183, 169, 149);
+    font-size: 10px;
+    width:250px;
+    margin: auto;
+    line-height: 13px;
+}
+.logos{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 15px;
+}
+button{
+    padding: 10px 38px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: 2px solid  rgb(139, 72, 0);
+}
+.but1{
+    color:  rgb(139, 72, 0);
+}
+.but2{
+    background-color:  rgb(139, 72, 0);
+    color: white;
+}
+
+
+.card2{
+    text-align: left;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -10px;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 10px;
+}
+.sub p{
+    margin: 0;
+    font-size: 12px;
+}
+.dig{
+    font-weight: 800;
+}
+.role1{
+    font-size: 12px;
+    margin: -18px 0 0;
+}
+.about .head{
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+.about .des{
+    margin-bottom: -5px;
+    font-size: 10px;
+    color: rgb(183, 169, 149);
+    text-align: justify;
+}

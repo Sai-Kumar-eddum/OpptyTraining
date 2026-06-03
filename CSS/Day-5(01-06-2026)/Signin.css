@@ -25,8 +25,8 @@
 }
 .card1 input{
     padding: 10px 20px;
-    background-color: rgb(192, 192, 192,0.2);
-    border-color: rgb(192, 192, 192,0.2);
+    background-color: rgba(163, 163, 163, 0.2);
+    border-style: none;
 }
 .card1 a{
     text-decoration: none;
