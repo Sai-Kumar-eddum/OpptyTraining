@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block2{
+            display: block;
+            background-color: aqua;
+        }
+        .block span{
+            display: block;
+        }
+
+        .inline2{
+            display: inline;
+            background-color: aqua;
+        }
+        .inline p{
+            display: inline;
+        }
+
+        .ex{
+            background-color: aquamarine;
+            width: 500px;
+        }
+        .ex1{
+            display: inline-block;
+        }
+
+        .list{
+            display: list-item;
+            margin-left: 20px;
+        }
+        .li4{
+            visibility:hidden;
+        }
+        .li7{
+             display: none;
+        }
+
+
+        .table{
+            display: table;
+        }
+        .row{
+            display: table-row;
+        }
+        .cell{
+            display: table-cell;
+            border: 1px solid;
+            padding: 20px;
+        }
+        .row2{
+            visibility: collapse;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:1fr 2fr 3fr;
+        }
+    </style>
+</head>
+<body>
+    <!-- Display:block -->
+    <span class="block2"> span tag Display:block  example</span>
+    <div class="block">
+        <span>Hello</span>
+        <span>This is</span>
+        <span>Span tag</span>
+    </div>
+
+
+    <!-- Display:inline -->
+    <p class="inline2"> para(p) tag Display:inline example</p>
+    <div class="inline">
+        <p>Hello</p>
+        <p>This is</p>
+        <p>paragraph(p) tag</p>
+    </div>
+
+
+    <!-- display:inline-block -->
+    <span class="ex ex1">Inline block example with span tag</span>
+    <span class="ex">span tag without inline</span>
+
+    <!-- display:list-items -->
+    <p class="list">1</p>
+    <p class="list">2</p>
+    <p class="list">3</p>
+    <p class="list li4">4</p>
+    <p class="list">5</p>
+    <p class="list">6</p>
+    <p class="list li7">7</p>
+    <p class="list">8</p>
+
+    <!-- display:table -->
+    <div class="table">
+        <div class="row">
+            <p class="cell">1</p>
+            <p class="cell">2</p>
+            <p class="cell">3</p>
+            <p class="cell cell4">4</p>
+        </div>
+        <div class="row row2">
+            <p class="cell">5</p>
+            <p class="cell">6</p>
+            <p class="cell">7</p>
+            <p class="cell">8</p>
+        </div>
+        <div class="row">
+            <p class="cell">9</p>
+            <p class="cell">10</p>
+            <p class="cell">11</p>
+            <p class="cell">12</p>
+        </div>
+        <div class="row">
+            <p class="cell">13</p>
+            <p class="cell">14</p>
+            <p class="cell">15</p>
+            <p class="cell">16</p>   
+        </div>
+    </div>
+
+    <!-- grid -->
+    <div class="grid">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+    </div>
+</body>
+</html>
