@@ -1,0 +1,211 @@
+.container {
+    display: grid;
+
+    grid-template-columns:1fr;
+    grid-template-rows: 50px 250px 220px 400px 150px 40px;
+
+    grid-template-areas:
+        "header"
+        "hero"
+        "skills"
+        "projects"
+        "contact"
+        "footer";
+    margin: -8px;
+
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* HEADER SECTION */
+.header {
+    grid-area: header;
+    background: rgb(17, 26, 56);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+}
+.header h2{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    margin-left: 100px;
+}
+.nav p:hover{
+    color: gold;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* HERO SECTION */
+.hero{
+    grid-area: hero;
+    background-color: rgb(217, 207, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 3px solid white;
+}
+.intro{
+    width: 250px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 35px;
+}
+.role{
+    color: rgb(5, 5, 196);
+    font-size: 13px;
+}
+.intro button{
+    background-color: rgb(51, 11, 116);
+    color: white;
+    padding: 7px 14px;
+    font-size: 11px;
+    border-style: none;
+}
+.intro button:hover{
+    box-shadow: 1px 1px 15px 3px purple;
+}
+.hero img:hover{
+    box-shadow: 1px 1px 20px 3px purple;
+    transform: skew(5deg);
+    transition-duration: 0.5s;
+}
+
+/* SKILLS SECTION */
+.skills {
+    grid-area: skills;
+    background: rgb(241, 252, 231);
+    text-align: center;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: max-content;
+    gap: 10px 50px;
+
+    margin: auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px 2px gray;
+    padding: 10px;
+    font-size: 12px;
+}
+.box:hover{
+    box-shadow: 1px 1px 15px 5px gray;
+    transform: scale(1.1) rotate(6deg);
+    transition-duration: 0.8s;
+}
+.box i{
+    font-size: 50px;
+    margin-top: 17px;
+}
+.b1 i,.b6 i{
+    color: orangered;
+}
+.b2 i{
+    color: rgb(3, 151, 250);
+}
+.b3 i{
+    color: gold;
+}
+.b4 i{
+    color: purple;
+}
+.b5 i{
+    color: rgb(2, 239, 239);
+}
+
+/* PROJECTS SECTION */
+.projects {
+    grid-area: projects;
+    background: rgb(252, 230, 196);
+    text-align: center;
+}
+.cards{
+    display: grid;
+    width: max-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:100px;
+    margin:30px auto;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    font-size: 11px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card p{
+    width: 150px;
+    margin: 0 auto 15px;
+    line-height: 20px;
+}
+.card img{
+    width: 200px;
+}
+.card button,.contact button{
+    background-color: rgb(51, 11, 116);
+    color: white;
+    padding: 8px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    border-style: none;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px 3px rgb(202, 2, 202);
+    transform:scale(1.1);
+    transition-duration: 0.8s;
+}
+
+
+/* CONTACT SECTION */
+.contact{
+    grid-area: contact;
+    text-align: center;
+    background-color: rgb(227, 242, 253);
+}
+form{
+    display: grid;
+    width: max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+}
+
+/*Footer Section  */
+.footer {
+    grid-area: footer;
+    background: rgb(17, 26, 56);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    padding: 0 60px;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: max-content;
+    font-size: 18px;
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
