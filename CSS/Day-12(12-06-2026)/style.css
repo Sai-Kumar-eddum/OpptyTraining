@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* header Section */
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Header Section 1 */
+.header1{
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 6px 440px;
+}
+.header1 a{
+    color: white;
+}
+.font a{
+    color: white;
+    border: 1px solid goldenrod;
+    padding: 4px;
+}
+.font .dark{
+    border-style: none;
+    background-color: black;
+}
+.font .light{
+    border-style: none;
+    background-color: white;
+    color: black;
+}
+.logos{
+    margin-top: -6px;
+}
+.logos i{
+    font-size: 25px;
+}
+.search input{
+    display:inline-block;
+    width: 100px;
+    background-color: rgb(83, 83, 83);
+    border: none;
+}
+.search input::placeholder{
+    color: white;
+    font-size: 12px;
+}
+form{
+    border: 1px solid gold;
+    padding: 2px;
+    margin-top: -3px;
+    font-size: 12px;
+}
+.network{
+    margin-top: -8px;
+}
+.network a{
+    color: white;
+    margin:0 10px;
+}
+
+/* hovering effects for header section 1 */
+.header1>a:hover{
+    color: black;
+}
+.font .size:hover{
+    background-color: orange;
+}
+
+
+/* header Section 2 */
+.header2{
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 0 50px;
+    font-weight: 700;
+    height: 40px;
+}
+.header2 p{
+    margin-top: 10px;
+}
+
+/* Hero Section */
+.hero{
+    height: 370px;
+    
+}
+.hero .modi{
+    width: 100%;
+    position: absolute;
+}
+.note{
+    position: relative;
+    left: 820px;
+    top: 200px;
+    background-color: rgb(0, 0, 0,0.3);
+    width: 370px;
+    font-weight:bolder;
+    font-size: 26px;
+    color: white;
+    padding: 10px;
+}
+.logo{
+    position: relative;
+    display: flex;
+    bottom: 130px;
+    margin-left: 30px;
+    gap: 10px;
+}
+.logo .emblem{
+    width: 60px;
+    height: 72px;
+}
+#flag{
+    width: 50px;
+    height: 35px;
+}
+#pm{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-top: 0;
+}
+
+/* News Section */
+.news{
+    background-color: rgb(219, 218, 218);
+    padding: 40px 0;
+}
+.news a{
+    color: black;
+    text-decoration: none;
+}
+#updates{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 0 50px;
+}
+.card img{
+    width: 240px;
+    height: 150px;
+    border: 2px solid;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: max-content;
+    margin: auto;
+    font-size: 10px;
+    gap:50px 30px;
+}
+.card{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    gap: 20px;
+}
+.card h2{
+    font-size: 19px;
+}
+.card p{
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+}
+.card-content{
+    width: 350px;
+}
+.news>a{
+    display:block;
+    width: max-content;
+    margin: auto;
+    background-color: rgb(255, 136, 0);
+    padding: 13px 25px;
+    font-size: 15px;
+}
+
+/* Hovering effects for news section */
+.card a:hover{
+    text-decoration: underline;
+}
+.news>a:focus{
+    border: 2px solid;
+}
+
+/* Gallery and info section */
+a{
+    color: black;
+}
+.info{
+    display: flex;
+    position: relative;
+    border: 10px solid black;
+    border-style: solid none solid;
+}
+.info-block{
+    width: 25%;
+}
+.info-content{
+    position: absolute;
+    background-color:  rgb(255, 136, 0);
+    width: 170px;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 19px;
+    top: 390px;
+}
+.ic1{
+    left: 30px;
+}
+.ic2{
+    left: 350px;
+}
+.ic3{
+    right: 430px;
+}
+.ic4{
+    right: 120px;
+}
+.info img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+/* Gallery scetion hovering effects */
+.info img:hover{
+    opacity: 1;
+}
+.info-content:hover{
+    border: 2px solid ;
+}
+
+
+/* PM ifo section */
+.pminfo{
+    display: flex;
+    height: 900px;
+}
+.info-1,.info-3{
+    width: 38%;
+    padding: 14px 7px;
+}
+.info-1 h1,.info-3 h1{
+    font-size: 43px;
+    padding-left: 20px;
+}
+.info-1 p,.info-3 p{
+    width: 430px;
+    margin: auto;
+    font-size: 21px;
+    line-height: 30px;
+}
+.info-1{
+    background:url(asserts/bg-block1.jpg) no-repeat left bottom;
+}
+.info-3{
+    background:url(asserts/bg-block3.jpg) no-repeat bottom right;
+}
+.info-2{
+    width: 24%;
+    background: #393c42;
+}
+.top{
+    background: #835656;
+    padding: 10%;
+}
+
