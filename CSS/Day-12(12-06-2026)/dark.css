@@ -106,12 +106,12 @@ form{
 }
 .hero .modi{
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 .note{
-    position: relative;
+    position: absolute;
     left: 820px;
-    top: 200px;
+    top: 250px;
     background-color: rgb(0, 0, 0,0.3);
     width: 370px;
     font-weight:bolder;
@@ -120,9 +120,9 @@ form{
     padding: 10px;
 }
 .logo{
-    position: relative;
+    position: absolute;
     display: flex;
-    bottom: 130px;
+    top: 100px;
     margin-left: 30px;
     gap: 10px;
     animation: left-slide-in 0.8s linear 0s 1;
