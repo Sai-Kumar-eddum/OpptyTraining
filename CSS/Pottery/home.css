@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    background: url(asserts/home-slider-1.jpg) center/cover repeat-y fixed;
+    position: relative;
+}
+
+/* Header Section */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 60px;
+    position: fixed; 
+    width: 100%; 
+    
+    box-sizing: border-box; 
+    z-index: 999; 
+    background-color: rgb(255, 255, 255,0); 
+}
+.nav,.nav ul,.logos,.logos-1{
+    display: flex;
+    gap: 50px;
+}
+.nav ul{
+    list-style: none;
+    font-size: 12.5px;
+    letter-spacing: 3px;
+}
+.nav a:hover{
+    color: #b67453;
+}
+.logos{
+    margin-top: 10px;
+}
+.logos-1{
+    font-size: 14px;
+    gap: 20px;
+}
+
+/* Hero Section */
+.hero{
+    padding:157px 270px 122px;
+    color: white;
+}
+.hero-title p{
+    font-family: 'Cormorant Garamond', Georgia  ;
+    font-size: 70px;
+    font-weight:400;
+    margin: 10px 0;
+}
+
+/* Side Section */
+.side{
+    position: fixed;     
+    right: 0;            
+    bottom: 0;       
+    z-index: 999; 
+}
+.inner-side{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+.side .top{
+    display: flex;
+    gap: 10px;
+    padding:0px 20px ;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.side .top,.side .bottom{   
+    width: 120px;
+    font-size: 14px;
+}
+.side .bottom{
+    padding:20px;
+    background-color: #f21e4e;
+    color: white;
+}
+.dig{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+/* Services Section */
+.services{
+    display: flex;
+    padding: 135px 50px 125px;
+    justify-content: space-around;
+
+}
+.services .card{
+    width: 200px;
+    text-align: center;
+}
+.services .title{
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    line-height: 36px;
+}
+.services .des{
+    color: #8d8787;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Gallery Section */
+.gallery{
+    text-align: center;
+    background-image: url("asserts/gallery/home-background-2.jpg");
+    padding: 50px 0;
+}
+.gallery .title{
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    line-height: 36px;
+}
+.gallery .des{
+    color: #8d8787;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 800px;
+    margin: auto;
+}
+.images{
+    padding: 80px;
+    display: grid;
+    gap: 25px;
+}
+.top{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+    gap: 15px;
+}
+.sub-top{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap:25px 15px;
+}
+.big-img{
+    width: 545px;
+    height: 550px;
+}
+.img1{
+    width: 260px;
+    height: 260px;
+}
+.images .bottom{
+    display: grid;
+    grid-template-columns: 24% 24% 52%;
+    gap: 20px;
+}
+.images .img3{
+    width: 555px;
+    height: 260px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    overflow: hidden;
+}
+.img img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+/* Subscribe Section */
+.subscribe{
+    background: url(asserts/home-parallax-1-1.jpg) center / cover no-repeat ;
+    /* height: 200px; */
+    padding:180px 200px;
+    text-align: center;
+}
+.subscribe h1{
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    font-weight: 400;
+}
+.email{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 26px;
+    width: 370px;
+}
+.email:focus{
+    outline: none;
+}
+.email::placeholder{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.submit{
+    background-color: rgb(255, 255, 255);
+    border-style:none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 3.3px;
+    height: 59px;
+    padding: 0 57px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+/* Products Section */
+.products{
+    text-align: center;
+    padding: 100px 0;
+}
+.products h1{
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    font-weight: 400;
+}
+.products .des{
+    color: #817d7d;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.product-title{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color: black;
+    margin: 10px;
+}
+del{
+    font-size: 14px;
+    color: #b97c5e;
+}
+.amount{
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card{
+    position: relative;
+}
+.sale{
+    position: absolute;
+    color: white;
+    background-color: #97c4d9;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3.3px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25px;
+    left: 15px;
+    z-index: 999;
+}
+.hover{
+    position: absolute;
+    width:250px;
+    height:328px;
+    background-color: rgb(255,255,255,0.8);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.hover a{
+    display: inline-block;
+    background-color: #b97c5e;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3.3px;
+    padding: 20px 40px;
+    margin-top: 125px;
+}
+.card:hover .hover{
+        visibility: visible;
+}
+.card:hover .product-title{
+        color: #b97c5e;
+}
+
