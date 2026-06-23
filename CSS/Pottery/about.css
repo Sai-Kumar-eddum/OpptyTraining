@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    background: url(asserts/About-us/about-title-image-1.jpg) center/cover repeat-y fixed;
+    position: relative;
+}
+
+/* Header Section */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 60px;
+    position: fixed; 
+    width: 100%; 
+    
+    box-sizing: border-box; 
+    z-index: 999; 
+}
+.nav,.nav ul,.logos,.logos-1{
+    display: flex;
+    gap: 50px;
+}
+.nav ul{
+    list-style: none;
+    font-size: 12.5px;
+    letter-spacing: 3px;
+}
+.nav a:hover{
+    color: #b67453;
+}
+.logos{
+    margin-top: 10px;
+}
+.logos-1{
+    font-size: 14px;
+    gap: 20px;
+}
+
+/* Hero Section */
+.hero{
+    padding:137px 270px 102px;
+    text-align: center;
+}
+#p1{
+    font-family: 'Playfair Display';
+    font-size: 80px;
+    margin: 0;
+}
+#p3{
+    color: #b97c5e;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Side Section */
+.side{
+    position: fixed;     
+    right: 0;            
+    bottom: 0;       
+    z-index: 999; 
+}
+.inner-side{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+.side .top{
+    display: flex;
+    gap: 10px;
+    padding:0px 20px ;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+}
+.side .top,.side .bottom{   
+    width: 120px;
+    font-size: 14px;
+}
+.side .bottom{
+    padding:20px;
+    background-color: #f21e4e;
+    color: white;
+}
+.dig{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+
+/* About des Section */
+.about-des{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 50px;
+}
+.des{
+    width: 500px;
+}
+.des h1{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-weight: 400;
+}
+.des h6{
+    color: #817d7d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* Services Section */
+.services{
+    display: flex;
+    padding: 50px 50px 125px;
+    justify-content: space-around;
+
+}
+.services .card{
+    width: 200px;
+    text-align: center;
+}
+.services .title{
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    line-height: 36px;
+}
+.services .des{
+    color: #8d8787;
+    font-size: 14px;
+    line-height: 24px;
+    width: 200px;
+}
+
+
+/* Subscribe Section */
+.subscribe{
+    background: url(asserts/home-parallax-1-1.jpg) top / cover no-repeat fixed ;
+    padding:90px 100px;
+    text-align: center;
+}
+.subscribe h1{
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    font-weight: 400;
+}
+.email{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 26px;
+    width: 370px;
+}
+.email:focus{
+    outline: none;
+}
+.email::placeholder{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.submit{
+    background-color: rgb(255, 255, 255);
+    border-style:none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 3.3px;
+    height: 59px;
+    padding: 0 57px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    background-image: url(asserts/gallery/home-background-2.jpg);
+    padding: 100px 70px 0;
+}
+.foot-top{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 60px;
+}
+.foot-inner h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 3.3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.inner-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.foot-inner a{
+    font-family: 'Playfair Display', sans-serif;
+    color: #8d8787;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+footer a:hover{
+    color: #b97c5e;
+}
+hr{
+    border: none;
+    border-top: 1px solid #b97c5e;
+}
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.foot-bottom,.foot-bottom a{
+    font-family: 'Playfair Display', sans-serif;
+    color: #8d8787;
+    font-size: 13px;
+    font-weight: 500;
+}
+.foot-bottom .media{
+    display: flex;
+    gap: 80px;
+}
+.media a{
+    font-size: 12px;
+}

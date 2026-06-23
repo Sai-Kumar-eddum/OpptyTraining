@@ -9,7 +9,7 @@ a{
 
 
 .wrapper{
-    background: url(asserts/home-slider-1.jpg) center/cover repeat-y fixed;
+    background: url(asserts/About-us/about-title-image-1.jpg) center/cover repeat-y fixed;
     position: relative;
 }
 
@@ -46,14 +46,21 @@ header{
 
 /* Hero Section */
 .hero{
-    padding:157px 270px 122px;
-    color: white;
+    padding:137px 270px 102px;
+    text-align: center;
 }
-.hero-title p{
-    font-family: 'Cormorant Garamond', Georgia  ;
-    font-size: 70px;
-    font-weight:400;
-    margin: 10px 0;
+#p1{
+    font-family: 'Playfair Display';
+    font-size: 80px;
+    margin: 0;
+}
+#p3{
+    color: #b97c5e;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
 /* Side Section */
@@ -92,152 +99,40 @@ header{
     margin-bottom: 0;
 }
 
-/* Services Section */
-.services{
+/* Shopping Section */
+.shop{
     display: flex;
-    padding: 135px 50px 125px;
-    justify-content: space-around;
-
+    padding: 100px 80px;
+    gap: 50px;
 }
-.services .card{
-    width: 200px;
-    text-align: center;
+/* Shop-1 Section */
+.shop-1{
+    width: 820px;
+    margin-top: 20px;
 }
-.services .title{
-    font-family: 'Playfair Display';
-    font-size: 26px;
-    line-height: 36px;
-}
-.services .des{
-    color: #8d8787;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-/* Gallery Section */
-.gallery{
-    text-align: center;
-    background-image: url("asserts/gallery/home-background-2.jpg");
-    padding: 50px 0;
-}
-.gallery .title{
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    line-height: 36px;
-}
-.gallery .des{
-    color: #8d8787;
-    font-size: 20px;
-    line-height: 35px;
-    letter-spacing: 1px;
-    width: 800px;
-    margin: auto;
-}
-.images{
-    padding: 80px;
-    display: grid;
-    gap: 25px;
-}
-.top{
-    display: grid;
-    grid-template-columns: 50% 50%;   
-    gap: 15px;
-}
-.sub-top{
-    display: grid;
-    grid-template-columns: repeat(2,50%);
-    gap:25px 15px;
-}
-.big-img{
-    width: 545px;
-    height: 550px;
-}
-.img1{
-    width: 260px;
-    height: 260px;
-}
-.images .bottom{
-    display: grid;
-    grid-template-columns: 24% 24% 52%;
-    gap: 20px;
-}
-.images .img3{
-    width: 555px;
-    height: 260px;
-}
-.images img{
-    width: 100%;
-    height: 100%;
-}
-.img{
-    overflow: hidden;
-}
-.img img:hover{
-    transform: scale(1.1);
-    transition-duration: 0.8s;
-}
-
-/* Subscribe Section */
-.subscribe{
-    background: url(asserts/home-parallax-1-1.jpg) center / cover no-repeat ;
-    padding:180px 200px;
-    text-align: center;
-}
-.subscribe h1{
-    color: white;
-    font-family: 'Playfair Display';
-    font-size: 55px;
-    font-weight: 400;
-}
-.email{
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 26px;
-    width: 370px;
-}
-.email:focus{
-    outline: none;
-}
-.email::placeholder{
-    color: white;
+select{
+    color: gray;
+    padding:13px 20px;
     font-family: 'Montserrat';
     font-size: 15px;
+    outline: none;
 }
-.submit{
-    background-color: rgb(255, 255, 255);
-    border-style:none;
+.drop-box{
+    display: flex;
+    justify-content: space-between;
+}
+.drop-box p{
+    color: #8d8787;
     font-family: 'Montserrat';
-    font-weight: 600;
-    letter-spacing: 3.3px;
-    height: 59px;
-    padding: 0 57px;
-    margin-left: -10px;
-    cursor: pointer;
-}
-
-/* Products Section */
-.products{
-    text-align: center;
-    padding: 100px 0;
-}
-.products h1{
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    font-weight: 400;
-}
-.products .des{
-    color: #817d7d;
-    font-family: 'Montserrat';
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
 }
+/* Cards Section */
 .cards{
     display: flex;
     gap: 25px;
-    justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
 .product-title{
     font-family: 'Playfair Display';
@@ -258,6 +153,8 @@ del{
 }
 .card{
     position: relative;
+    justify-content: center;
+    text-align: center;
 }
 .sale{
     position: absolute;
@@ -279,7 +176,7 @@ del{
 }
 .hover{
     position: absolute;
-    width:250px;
+    width:255px;
     height:328px;
     background-color: rgb(255,255,255,0.8);
     top: 0;
@@ -306,6 +203,43 @@ del{
 .hover a:hover{
     background-color: black;
 }
+
+
+/* Shop-2 Section */
+.shop-2 h2{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#range{
+    display: inline-block;
+    width: 200px;
+    accent-color: #b67453;
+    height: 4px;
+}
+#filter{
+    display: inline-block;
+    background-color:#b97c5e;
+    padding: 20px 30px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin: 20px 0;
+}
+#filter:hover{
+    background-color: black;
+}
+#price{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+
 
 
 /* Footer */
@@ -360,39 +294,4 @@ hr{
 }
 .media a{
     font-size: 12px;
-}
-
-
-
-
-
-
-
-
-/* Animations */
-.hero .logo img{
-    animation: fade-in 0.5s linear 0s 1 backwards;
-}
-#p1{
-    animation: fade-in 0.5s linear 0.4s 1 backwards;
-}
-#p2{
-    animation: fade-in 0.5s linear 0.8s 1 backwards;
-}
-#p3{
-    animation: fade-in 0.5s linear 1.2s 1 backwards;
-}
-@keyframes fade-in{
-    0%{
-        opacity: 0;
-        transform: translate(100px,0);
-    }
-    50%{
-        opacity: 0.5;
-        transform: translate(50px,0);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0,0);
-    }
 }
