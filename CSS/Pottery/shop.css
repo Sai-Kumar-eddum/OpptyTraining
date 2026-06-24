@@ -139,7 +139,6 @@ select{
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 6px;
-    color: black;
     margin: 10px;
 }
 del{
@@ -213,7 +212,6 @@ del{
     letter-spacing: 1px;
 }
 #range{
-    display: inline-block;
     width: 200px;
     accent-color: #b67453;
     height: 4px;
@@ -236,10 +234,28 @@ del{
     font-size: 13px;
     letter-spacing: 1px;
 }
-
-
-
-
+#product-title{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 600;
+    margin: 6px;    
+}
+.sub-card{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.sub-card:hover,.categories a:hover,.tags a:hover{
+    color: #b67453;
+}
+.categories a,.tags a{
+    font-family: 'Raleway';
+    color: #818181;
+}
+.tags{
+    margin-top: 50px;
+}
 
 
 /* Footer */
