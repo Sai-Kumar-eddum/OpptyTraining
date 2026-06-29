@@ -1,241 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            margin: 0;
-            font-family: 'Montserrat', sans-serif;
+        body{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px
         }
-
-        a {
-            color: black;
-            text-decoration: none;
+        div{
+            width: 50px;
+            height: 50px;
+            padding: 100px;
         }
-
-
-        .wrapper {
-            background: url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-1.jpg) center/cover repeat-y fixed;
-            position: relative;
+        .box1{
+            background-color: red;
         }
-
-        /* Header Section */
-        header {
-            display: flex;
-            justify-content: space-between;
-            padding: 30px 60px;
-            position: fixed;
-            width: 100%;
-
-            box-sizing: border-box;
-            z-index: 999;
-            background-color: rgb(255, 255, 255, 0);
+        .box1:hover{
+            background-color: rgb(248, 128, 128);
+            transform: rotate(360deg);
+            border-radius: 50%;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
         }
-
-        .nav,
-        .nav ul,
-        .logos,
-        .logos-1 {
-            display: flex;
-            gap: 50px;
+        .box2{
+            background-color: green;
         }
-
-        .nav ul {
-            list-style: none;
-            font-size: 12.5px;
-            letter-spacing: 3px;
+        .box2:hover{
+            background-color: rgb(111, 238, 117);
+            transform:translate(100px,100px);
+            border-radius: 50%;
+            transition-duration: 2s;
         }
-
-        .nav a:hover {
-            color: #b67453;
+        .box3{
+            background-color: yellow;
         }
-
-        .logos {
-            margin-top: 10px;
+        .box3:hover{
+            background-color: rgb(97, 94, 7);
+            transform: skew(20deg,10deg);
+            border-radius: 50%;
+            transition-duration: 2s;
+            transition-timing-function: ease-out;
         }
-
-        .logos-1 {
-            font-size: 14px;
-            gap: 20px;
+        .box4{
+            background-color: darkorange;
+            perspective: 200px;
         }
-
-        /* Hero Section */
-        .hero {
-            padding: 157px 270px 122px;
-            color: white;
+        .box4:hover{
+            background-color: rgb(251, 96, 0);
+            transform: Scale(0.8);
+            border-radius: 50%;
+            transition-duration: 2s;
         }
-
-        .hero-title p {
-            font-family: 'Cormorant Garamond', Georgia;
-            font-size: 70px;
-            font-weight: 400;
-            margin: 10px 0;
+        .box5{
+            background-color: blue;
         }
-
-        .services {
-            width: 90%;
-            margin: 80px auto;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-        }
-
-        .card {
-            width: 23%;
-        }
-
-        .card img {
-            width: 100px;
-            margin-bottom: 25px;
-        }
-
-        .card h2 {
-            font-size: 40px;
-            font-family: Georgia, serif;
-            margin-bottom: 20px;
-            font-weight: normal;
-        }
-
-        .card p {
-            color: gray;
-            font-size: 20px;
-            line-height: 35px;
+        .box5:hover{
+            background-color: rgb(0, 242, 254);
+            transform:matrix(0.5,-1.2,0.8,0.6,100,-100);
+            border-radius: 50%;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
         }
     </style>
 </head>
-
 <body>
-    <div class="wrapper">
-
-        <!-- Header Section -->
-        <header>
-            <div class="logo">
-                <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/logo.png" alt="">
-            </div>
-            <div class="nav">
-                <ul>
-                    <li>
-                        <a href="home.html" style="color: #b67453;">
-                            HOME
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://bridge155.qodeinteractive.com/shop/">
-                            SHOP
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://bridge155.qodeinteractive.com/contact-us/">
-                            CONTACT
-                        </a>
-                    </li>
-                </ul>
-                <div class="logos">
-                    <div class="logos-1">
-                        <a href="https://www.facebook.com/QodeInteractive/" target="_blank">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/qodeinteractive/" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://x.com/QodeInteractive" target="_blank">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <i class="fa fa-shopping-cart"></i>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- Hero Scetion -->
-        <div class="hero">
-            <div class="logo">
-                <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2019/08/pottery-graphic-slider-01.png"
-                    alt="">
-            </div>
-            <div class="hero-title">
-                <p id="p1">Exclusive Ceramics</p>
-                <p id="p2">& Pottery Retailer</p>
-            </div>
-            <p id="p3">WE MAKE UNIQUE THINGS WITH LOVE AND PASSION</p>
-
-        </div>
+    <div class="box1">
+        Rotate
     </div>
-    <section class="services">
+    <div class="box2">
+        Translate
+    </div>
+    <div class="box3">
+        Skew
+    </div>
+    <div class="box4">
+        Scale
+    </div>
+    <div class="box5">
+        Matrix
+    </div>
 
-        <div class="card">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/custom-icon-1.png" alt="">
-            <h2>Pottery Classes</h2>
-            <p>Adipiscing contentiones te sea, at per vero oratio corrumpit. Ne vocent impetus usu.</p>
-        </div>
-
-        <div class="card">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/custom-icon-2.png" alt="">
-            <h2>Design Process</h2>
-            <p>Adipiscing contentiones te sea, at per vero oratio corrumpit. Ne vocent impetus usu.</p>
-        </div>
-        <div class="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/custom-icon-3.png">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/custom-icon-3.png" alt="">
-            <h2>Gift Cards</h2>
-            <p>Adipiscing contentiones te sea, at per vero oratio corrumpit. Ne vocent impetus usu.</p>
-        </div>
-
-        <div class="card">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/custom-icon-4.png" alt="">
-            <h2>Pottery Wheel</h2>
-            <p>Adipiscing contentiones te sea, at per vero oratio corrumpit. Ne vocent impetus usu.</p>
-        </div>
-
-    </section>
-    <section class="photo">
-        <h1>OUR GALLERY</h1>
-        <P>Adipiscing contentiones te sea, at per vero oratio corrumpit. Ne vocent impetus usu.<br> Eos hinc senserit
-            et, eu eam nullam recusabo voluptatum.</P>
-        <div class="img">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-1.jpg"
-                height="450px" width="300px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-2.jpg"
-                height="250px" width="200px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-3.jpg"
-                height="250px" width="200px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-4.jpg"
-                height="250px" width="200px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-5.jpg"
-                height="250px" width="200px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-6.jpg"
-                height="350px" width="250px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-7.jpg"
-                height="350px" width="200px">
-            <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-8.jpg"
-                height="350px" width="700px">
-        </div>
-    </section>
-    <section class="pic">
-        <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-gallery-1.jpg" height="500px"
-            width="1200px">
-    </section>
-    <section class="late">
-        <h1>Latest Products</h1>
-        <p>Mei invenire periculis ei, offendit mediocrem ne sea, eos suas elitr everti ea.</p>
-        <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/product-1-600x776.jpg" height="300px"
-            width="250px">
-        <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/product-2-600x776.jpg" height="300px"
-            width="250px">
-        <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/product-3-600x776.jpg" height="300px"
-            width="250px">
-        <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/product-4-600x776.jpg" height="300px"
-            width="250px">
-    </section>
 </body>
-
 </html>

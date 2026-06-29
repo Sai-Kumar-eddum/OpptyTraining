@@ -27,6 +27,11 @@ header{
     display: flex;
     gap: 50px;
 }
+@media (max-width:500px){
+    .nav,.nav ul,.logos,.logos-1{
+        flex-direction: column;
+    }
+}
 .nav ul{
     list-style: none;
     font-size: 12.5px;
@@ -395,3 +400,5 @@ hr{
         transform: translate(0,0);
     }
 }
+
+
